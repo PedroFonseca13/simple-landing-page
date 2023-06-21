@@ -1,0 +1,16 @@
+.hero {
+	display: flex;
+}
+.hero-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+.hero-information h2 {
+	font-size: 6rem;
+	margin-bottom: 3rem;
+	text-transform: uppercase;
+}
+.hero-img img {
+	width: 100%;
+}
