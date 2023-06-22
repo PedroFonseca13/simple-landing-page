@@ -1,6 +1,10 @@
 :root {
 	--gap: 3rem;
 	--primary-color: #006a45;
+	--primary-color-transparent: #006a4580;
+	--secondary-color: #003841;
+	--red-color: #dc143c;
+	--green-color: #53795d;
 	--dark-color: #313131;
 	--white-color-1: #f1f1f1;
 	--white-color-1-transparent: #f2f2f2e6;
