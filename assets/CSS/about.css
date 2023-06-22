@@ -19,7 +19,7 @@ h3 {
 	align-items: center;
 }
 .about-img {
-	background-color: #006a45;
+	background-color: var(--primary-color);
 	position: relative;
 	border-radius: 50%;
 	width: 30rem;
@@ -54,7 +54,7 @@ h3 {
 	padding: 1rem 0;
 }
 .skill-card-img {
-	background-color: rgba(0, 106, 69, 0.5);
+	background-color: var(--primary-color-transparent);
 	display: flex;
 	height: 7.5rem;
 	width: 7.5rem;
@@ -64,13 +64,11 @@ h3 {
 }
 .skill-card h4 {
 	font-family: 'Raleway', sans-serif;
-	/* font-weight: 300; */
 	font-size: 1.6rem;
 	text-align: center;
 }
 .skill-card p {
 	font-size: 1.5rem;
 	font-family: 'Montserrat', sans-serif;
-	/* font-weight: 300; */
 	text-align: center;
 }
