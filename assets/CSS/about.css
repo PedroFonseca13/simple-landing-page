@@ -72,3 +72,17 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
+
+@media (max-width: 768px) {
+	.about-container {
+		gap: 3rem;
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+}
+
+@media (max-width: 425px) {
+	.skills {
+		grid-template-columns: 1fr;
+	}
+}
