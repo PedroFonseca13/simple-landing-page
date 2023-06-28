@@ -16,6 +16,9 @@
 	width: 100%;
 }
 @media (max-width: 768px) {
+	.hero {
+		display: block;
+	}
 	.hero-content {
 		grid-template-columns: 1fr;
 	}
@@ -28,5 +31,11 @@
 	}
 	.hero-img img {
 		width: 80%;
+	}
+}
+
+@media (max-width: 425px) {
+	.hero-information h2 {
+		font-size: 5rem;
 	}
 }
