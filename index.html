@@ -17,11 +17,22 @@
 		<link rel="stylesheet" href="./assets/CSS/menu.css" />
 		<link rel="stylesheet" href="./assets/CSS/home.css" />
 		<link rel="stylesheet" href="./assets/CSS/about.css" />
+		<link rel="stylesheet" href="./assets/CSS/experiences.css" />
 		<link rel="stylesheet" href="./assets/CSS/style.css" />
 		<!-- TITLE -->
 		<title>Simple Landing Page</title>
 	</head>
 	<body>
+		<!-- menu mobile -->
+		<input
+			type="checkbox"
+			name="close-menu"
+			id="close-menu"
+			class="close-menu"
+			aria-label="Close menu"
+			role="button"
+		/>
+		<label for="close-menu" title="Close menu" class="close-menu-label"></label>
 		<!-- menu -->
 		<aside class="menu">
 			<div class="container menu-content">
@@ -64,7 +75,7 @@
 			<div class="container">
 				<div class="about-container">
 					<div class="about-img">
-						<img src="./assets/img/rooster_logo.png" alt="" />
+						<img src="./assets/img/rooster_logo2.png" alt="" />
 					</div>
 					<div class="about-text">
 						<p>
@@ -129,6 +140,7 @@
 					</div>
 					<div class="grid-container">
 						<div class="education">
+							<h6 class="section-title">conhecimentos</h6>
 							<div class="education-info">
 								<h6>Desenvolvimento Web usando HTML, CSS e Javascript</h6>
 								<p>Curso livre - Udemy</p>
@@ -166,6 +178,7 @@
 						<div class="vertical-line"></div>
 
 						<div class="jobs">
+							<h6 class="section-title">Trabalhos</h6>
 							<div class="jobs-info">
 								<h6>Site Barbearia Art Club</h6>
 								<p>HTML, CSS e React</p>
@@ -201,6 +214,5 @@
 				</div>
 			</div>
 		</section>
-		<div class="main-bg-white section"></div>
 	</body>
 </html>

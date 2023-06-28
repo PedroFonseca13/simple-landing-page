@@ -41,3 +41,8 @@ h5 {
 h6 {
 	font-size: 3.5rem;
 }
+@media (max-width: 425px) {
+	h2 {
+		font-size: 4.5rem;
+	}
+}

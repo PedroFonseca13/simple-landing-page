@@ -50,3 +50,48 @@
 .menu ul li a:hover::after {
 	width: 100%;
 }
+
+.close-menu {
+	display: none;
+}
+@media (max-width: 768px) {
+	.menu {
+		bottom: 0;
+		text-align: center;
+		display: none;
+	}
+	.menu-content {
+		height: 100vh;
+		/* overflow: hidden; */
+	}
+	.menu-content,
+	.menu-content ul {
+		flex-direction: column;
+		justify-content: center;
+		/* align-items: center; */
+	}
+	.close-menu-label::after {
+		content: '≡';
+		position: fixed;
+		z-index: 101;
+		top: 2rem;
+		right: 2rem;
+		background-color: var(--primary-color);
+		color: var(--white-color-1);
+		font-size: 3rem;
+		line-height: 3rem;
+		width: 3.5rem;
+		height: 3.5rem;
+		text-align: center;
+		cursor: pointer;
+	}
+	.close-menu:checked ~ .menu {
+		display: block;
+	}
+	.close-menu:checked ~ .close-menu-label::after {
+		content: '×';
+	}
+	.spacing {
+		display: none;
+	}
+}

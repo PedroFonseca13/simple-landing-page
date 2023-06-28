@@ -1,5 +1,6 @@
 .hero {
 	display: flex;
+	justify-content: center;
 }
 .hero-content {
 	display: grid;
@@ -17,6 +18,9 @@
 @media (max-width: 768px) {
 	.hero-content {
 		grid-template-columns: 1fr;
+	}
+	.hero-information {
+		padding-top: 3rem;
 	}
 	.hero-img {
 		display: flex;
